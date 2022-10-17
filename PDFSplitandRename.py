@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
 
 
 ## Import packages 
@@ -16,8 +12,6 @@ from tkinter import ttk
 from tkinter import filedialog as fd
 from tkinter.messagebox import showinfo
 
-
-# In[60]:
 
 
 ### Functions 
@@ -107,7 +101,6 @@ def RenamePDF():
    tk.messagebox.showinfo(title = "PDF split and rename complete!", message = str(reader.getNumPages()) + " files were created to " + New_Folder)
 
 
-# In[61]:
 
 
 RunApp()
